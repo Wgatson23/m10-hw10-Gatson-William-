@@ -36,22 +36,25 @@ a:hover {
 	text-decoration: underline;
 }
 
-.header {
+.header__nav {
 	background-color: var(--primary-color);
 	padding: 48px 0;
 	border-bottom: var(--secondary-color) 6px solid;
 }
 
-.header, .header__link, .header__logo {
+.header,
+.header__link,
+.header__logo {
 	font-size: 1.5rem;
 	color: var(--off-white);
 }
 
-.main_section a {
+.main a {
 	color: var(--danger-color);
 }
 
-.article_p, .nav_head {
+.article_p,
+.nav_head {
 	max-width: 1200px;
 	margin: 0 auto;
 	box-sizing: border-box;
@@ -89,7 +92,7 @@ main > article {
 	text-align: center;
 }
 
-.call-to-action {
+.call_to_action {
 	font-size: 2rem;
 	font-weight: 700;
 	text-shadow: var(--white) 0px 0px 10px, var(--white) 0px 0px 20px,
@@ -111,7 +114,7 @@ main > article {
 	padding: 48px 96px;
 }
 
-.p_info {
+.main_article_p {
 	line-height: 1.75;
 	margin-bottom: 48px;
 }
